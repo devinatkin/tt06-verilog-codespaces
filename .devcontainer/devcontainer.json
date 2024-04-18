@@ -1,0 +1,7 @@
+{
+    "name": "Verilog HDL (Icarus Verilog)",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    }
+}
