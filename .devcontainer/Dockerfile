@@ -18,4 +18,6 @@ COPY ../test/requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 # Clone OpenLane and copy buildscipt to container
+
 RUN git clone https://github.com/The-OpenROAD-Project/OpenLane
+RUN chmod -R 777 OpenLane
